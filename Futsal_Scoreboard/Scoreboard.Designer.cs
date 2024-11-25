@@ -40,8 +40,8 @@
             lblT2Foul = new Label();
             pbTeamOne = new PictureBox();
             pbTeamTwo = new PictureBox();
-            label8 = new Label();
-            label9 = new Label();
+            lblTeamOne = new Label();
+            lblTeamTwo = new Label();
             label10 = new Label();
             lblTimeout = new Label();
             lblTimer = new Label();
@@ -60,6 +60,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Khaki;
@@ -71,6 +72,7 @@
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = SystemColors.Highlight;
             panel1.Controls.Add(lblT1Foul);
             panel1.Location = new Point(361, 157);
@@ -80,6 +82,7 @@
             // 
             // panel2
             // 
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel2.BackColor = Color.Khaki;
             panel2.Controls.Add(lblPeriod);
             panel2.Location = new Point(521, 157);
@@ -89,6 +92,7 @@
             // 
             // panel3
             // 
+            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel3.BackColor = Color.Red;
             panel3.Controls.Add(lblT2Foul);
             panel3.Location = new Point(682, 157);
@@ -98,6 +102,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -110,6 +115,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -122,6 +128,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -165,6 +172,7 @@
             // 
             // pbTeamOne
             // 
+            pbTeamOne.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pbTeamOne.BackColor = SystemColors.Highlight;
             pbTeamOne.Location = new Point(24, 216);
             pbTeamOne.Name = "pbTeamOne";
@@ -174,6 +182,7 @@
             // 
             // pbTeamTwo
             // 
+            pbTeamTwo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pbTeamTwo.BackColor = Color.Red;
             pbTeamTwo.Location = new Point(899, 216);
             pbTeamTwo.Name = "pbTeamTwo";
@@ -181,32 +190,35 @@
             pbTeamTwo.TabIndex = 7;
             pbTeamTwo.TabStop = false;
             // 
-            // label8
+            // lblTeamOne
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(75, 450);
-            label8.Name = "label8";
-            label8.Size = new Size(167, 60);
-            label8.TabIndex = 8;
-            label8.Text = "Team A";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
+            lblTeamOne.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblTeamOne.AutoSize = true;
+            lblTeamOne.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTeamOne.ForeColor = Color.White;
+            lblTeamOne.Location = new Point(75, 450);
+            lblTeamOne.Name = "lblTeamOne";
+            lblTeamOne.Size = new Size(167, 60);
+            lblTeamOne.TabIndex = 8;
+            lblTeamOne.Text = "Team A";
+            lblTeamOne.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // lblTeamTwo
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(958, 450);
-            label9.Name = "label9";
-            label9.Size = new Size(164, 60);
-            label9.TabIndex = 9;
-            label9.Text = "Team B";
-            label9.TextAlign = ContentAlignment.MiddleCenter;
+            lblTeamTwo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            lblTeamTwo.AutoSize = true;
+            lblTeamTwo.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTeamTwo.ForeColor = Color.White;
+            lblTeamTwo.Location = new Point(958, 450);
+            lblTeamTwo.Name = "lblTeamTwo";
+            lblTeamTwo.Size = new Size(164, 60);
+            lblTeamTwo.TabIndex = 9;
+            lblTeamTwo.Text = "Team B";
+            lblTeamTwo.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label10.AutoSize = true;
             label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -219,6 +231,7 @@
             // 
             // lblTimeout
             // 
+            lblTimeout.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblTimeout.AutoSize = true;
             lblTimeout.BackColor = Color.Khaki;
             lblTimeout.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -231,6 +244,7 @@
             // 
             // lblTimer
             // 
+            lblTimer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblTimer.AutoSize = true;
             lblTimer.BackColor = Color.Transparent;
             lblTimer.Font = new Font("Segoe UI", 72F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -243,6 +257,7 @@
             // 
             // panel4
             // 
+            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel4.BackColor = SystemColors.Highlight;
             panel4.Controls.Add(lblT1Score);
             panel4.Location = new Point(42, 564);
@@ -263,6 +278,7 @@
             // 
             // panel5
             // 
+            panel5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel5.BackColor = Color.Red;
             panel5.Controls.Add(lblT2Score);
             panel5.Location = new Point(925, 564);
@@ -292,8 +308,8 @@
             Controls.Add(lblTimer);
             Controls.Add(lblTimeout);
             Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label8);
+            Controls.Add(lblTeamTwo);
+            Controls.Add(lblTeamOne);
             Controls.Add(pbTeamTwo);
             Controls.Add(pbTeamOne);
             Controls.Add(label4);
@@ -306,6 +322,7 @@
             Name = "Scoreboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = " ";
+            WindowState = FormWindowState.Maximized;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -336,8 +353,8 @@
         private Label lblT2Foul;
         private PictureBox pbTeamOne;
         private PictureBox pbTeamTwo;
-        private Label label8;
-        private Label label9;
+        private Label lblTeamOne;
+        private Label lblTeamTwo;
         private Label label10;
         private Label lblTimeout;
         private Label lblTimer;
